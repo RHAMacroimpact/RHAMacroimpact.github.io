@@ -15,7 +15,7 @@ $(document).ready(function(){
 		$(".links").removeClass("active");
 		$(tabs[1]).addClass("active");
 		$(".our-goal").delay("fast").fadeIn("900");
-		$(".background").css("height", "100vh");
+		$(".background").css("height", "100%");
 	});
 	$(tabs[2]).click(function() {
 		$(".info").hide("100");
@@ -29,7 +29,7 @@ $(document).ready(function(){
 		$(".links").removeClass("active");
 		$(tabs[3]).addClass("active");
 		$(".defined").delay("fast").fadeIn("900");
-		$(".background").css("height", "100em");
+		$(".background").css("height", "100%");
 	});
 	$(tabs[4]).click(function() {
 		$(".info").hide("100");
@@ -43,27 +43,28 @@ $(document).ready(function(){
 		$(".links").removeClass("active");
 		$(tabs[5]).addClass("active");
 		$(".take-action").delay("fast").fadeIn("900");
-		$(".background").css("height", "100em");
+		$(".background").css("height", "100%");
 	});
 	$(tabs[6]).click(function() {
 		$(".info").hide("100");
 		$(".links").removeClass("active");
 		$(tabs[6]).addClass("active");
 		$(".signup").delay("fast").fadeIn("900");
-		$(".background").css("height", "100vh");
+		$(".background").css("height", "100%");
 	});
 	$(tabs[7]).click(function() {
 		$(".info").hide("100");
 		$(".links").removeClass("active");
 		$(tabs[7]).addClass("active");
 		$(".resources").delay("fast").fadeIn("900");
-		$(".background").css("height", "100vh");
+		$(".background").css("height", "100%");
 	});
 	//Posters still needs a click function
 	$(tabs[8]).click(function() {
 		$(".info").hide("100");
 		$(".links").removeClass("active");
 		$(tabs[8]).addClass("active");
+		$(".background").css("height", "100%");
 	});
 	
 	

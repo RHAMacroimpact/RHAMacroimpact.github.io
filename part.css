@@ -70,8 +70,7 @@ body {
 	
 	margin: auto;
 	padding: 30px 100px 50px 100px;
-	position: relative;
-	top: 10px;
+	margin-top: 11px;
 	
 	background-color: white;
 	border: 2px solid #18543b;
@@ -113,6 +112,7 @@ body {
 	
 	text-align: center;
 	margin: auto;
+	margin-top: 30px;
 	margin-bottom: 30px;
 	
 	background-color: black;
@@ -128,6 +128,7 @@ body {
 .list-header-text {
 	font-size: 30px;
 	font-style: strong;
+	margin: 10px;
 }
 .normal {
 	margin-top: 20px;
@@ -135,7 +136,8 @@ body {
 	font-family: "amble";
 }
 .normal-button {
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 15px;
 	
 	color: #18543b;
@@ -173,7 +175,20 @@ body {
 	line-height: 30px;
 	font-size: 15px;
 }
-@media (max-width: 1200px) {
+.footer {
+	width: 200px;
+	height: 250px;
+	padding: 30px;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 40px;
+}
+.footer-image {
+	width: 200px;
+}
+@media (max-width: 1300px) {
 	.info-body {
 		width: 800px;
 	}
@@ -185,10 +200,7 @@ body {
 		height: 80%;
 	}
 }
-@media (max-width: 900px) {
-	.background {
-		height: 80em;
-	}
+@media (max-width: 1000px) {
 	.links {
 		font-size: 20px;
 		border: 2px solid black;
