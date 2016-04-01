@@ -64,6 +64,7 @@ $(document).ready(function(){
 		$(".info").hide("100");
 		$(".links").removeClass("active");
 		$(tabs[8]).addClass("active");
+		$(".posters").delay("fast").fadeIn("900");
 		$(".background").css("height", "100%");
 	});
 	

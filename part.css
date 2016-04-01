@@ -175,6 +175,23 @@ body {
 	line-height: 30px;
 	font-size: 15px;
 }
+.poster-box {
+	width: 100%;
+	text-align: center;
+}
+/*
+.poster1 {
+	
+	margin: auto;
+}*/
+.poster-size {
+	width: 50%;
+	height: 50%;
+	margin: auto;
+}
+
+
+
 .footer {
 	width: 200px;
 	height: 250px;
